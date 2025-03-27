@@ -1,12 +1,12 @@
 *{
     margin:0;
-    padding:0;
+    padding:2px;
 }
 html {
     scroll-behavior: smooth;
 }
 body{
-    background-image: url("images/bg3.avif");
+    background-image: url("bgimg2.avif");
     background-size: contain;
 }
 #name{
@@ -144,8 +144,9 @@ body{
     height: 30vh;
     border: 2px solid rgb(29, 221, 199);
     line-height: 5vh;
-    color: rgb(180, 46, 162);
+    color: #D3D3D3;
     font-size: 30px;
+    padding: 18px;
     background-color: rgb(17, 60, 106);
 }
 .pr:hover{
@@ -203,19 +204,19 @@ body{
     transition-duration: 0.5s;
 }
 #insta{
-    background-image: url("images/instagram.png");
+    background-image: url("instagram.png");
     background-size: contain;
 }
 #in{
-    background-image: url("images/linkedin.png");
+    background-image: url("linkedin.png");
     background-size: contain;
 }
 #github{
-    background-image: url("images/github.png");
+    background-image: url("github.png");
     background-size: contain;
 }
 #mail{
-    background-image: url("images/gmail.png");
+    background-image: url("gmail.png");
     background-size: contain;
 }
 .cntnr{
@@ -228,8 +229,10 @@ body{
     width: 100%;
     justify-content: center;
 }
-
-
+#tic:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
 
 
  
