@@ -16,17 +16,20 @@ body{
     color: rgb(102, 219, 159);
     font-size: 50px;
     margin-right: 0px;
+    text-shadow: 0 0 10px cyan;
 }
-.head1{
+#head1{
     margin-top: 25px;
     margin-right: 40%;
     color: #AEEEEE;
     font-family: serif;
     text-align: left;
+    text-shadow: 0 0 30px cyan;
 }
-.nav{
+#nav{
     position: sticky;
     top: 0;
+    background-color: black;
     display: flex;
     justify-content: flex-end;
     background-size: 100%;
@@ -59,7 +62,7 @@ body{
     display: flex;
 }
 #info{
-    color:#D3D3D3;
+    color:#bbc04d;
     font-size:10px;
     margin-top: 4.2%;
     margin-left: 10px;
@@ -71,9 +74,10 @@ body{
     font-size: 45px;
     margin-top: 20px;
     color: #AEEEEE;
-    padding-left: 15px;
+    padding-left: 100%;
     text-align: center;
     justify-content: center;
+    text-shadow: 0 0 10px cyan;
 }
 .skills{
     margin-top: 40px;
@@ -94,6 +98,7 @@ body{
     font-size: 45px;
     text-align: center;
     padding-bottom: 60px;
+    text-shadow: 0 0 10px #AEEEEE;
 }
 .listpr{
     display: flex;
@@ -104,7 +109,7 @@ body{
     display: flex;
 }
 #info{
-    color:#D3D3D3;
+    color:#badbb3;
     font-size:30px;
     margin-top: 3%;
     margin-left: 20px;
@@ -115,7 +120,7 @@ body{
 }
 
 #list{
-    color:#D3D3D3;
+    color:#badbb3;
     padding: 15px;
     margin-left: 15px;
     font-size: 25px;
@@ -144,10 +149,10 @@ body{
     height: 30vh;
     border: 2px solid rgb(29, 221, 199);
     line-height: 5vh;
-    color: #D3D3D3;
+    color: #badbb3;
     font-size: 30px;
     padding: 18px;
-    background-color: rgb(17, 60, 106);
+    background-color: rgb(17, 70, 86);
 }
 .pr:hover{
     transition-timing-function: ease-out;
@@ -159,9 +164,10 @@ body{
     text-align: center;
     font-size: 45px;
     margin-top: 15px;
+    text-shadow: 0 0 10px#AEEEEE;
 }
 #interest{
-    color:#D3D3D3;
+    color:#badbb3;
     padding-top: 20px;
     font-size: 30px;
     padding-left: 30px;
@@ -233,7 +239,9 @@ body{
     cursor: pointer;
     text-decoration: none;
 }
-
+#tic{
+    text-decoration: none;
+}
 
  
 
