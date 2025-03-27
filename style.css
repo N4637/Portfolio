@@ -6,7 +6,8 @@ html {
     scroll-behavior: smooth;
 }
 body{
-    background-image: url("bgimg2.avif");
+   /* background-image: url("bgimg2.avif");*/
+    background-color: rgb(14, 47, 56);
     background-size: contain;
 }
 #name{
@@ -29,7 +30,7 @@ body{
 #nav{
     position: sticky;
     top: 0;
-    background-color: black;
+    background-color: rgb(34, 90, 112);
     display: flex;
     justify-content: flex-end;
     background-size: 100%;
