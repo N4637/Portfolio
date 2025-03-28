@@ -186,6 +186,7 @@ body{
     color:#AEEEEE;
     font-size: 35px;
     margin-top: 12.5px;
+    text-shadow: 0 0 10px cyan;
 }
 #contact{
     color: rgb(18, 62, 61);
@@ -205,6 +206,7 @@ body{
     width: 44px;
     margin-top: 13px;
     padding-left: 0px;
+    z-index: 1;
 }
 .icon:hover{
     transform: scale(1.3);
