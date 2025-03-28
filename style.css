@@ -1,6 +1,6 @@
 *{
     margin:0;
-    padding:2px;
+    padding:0;
 }
 html {
     scroll-behavior: smooth;
@@ -191,7 +191,7 @@ body{
 #contact{
     color: rgb(18, 62, 61);
     font-size: 50px;
-    padding-top: 5x;
+    padding-top: 9px;
     padding-left: 20px;
     text-align: center;
 }
@@ -204,7 +204,7 @@ body{
 .icon{
     height: 44px;
     width: 44px;
-    margin-top: 13px;
+    margin-top: 15px;
     padding-left: 0px;
     z-index: 1;
 }
@@ -228,9 +228,7 @@ body{
     background-image: url("gmail.png");
     background-size: contain;
 }
-.cntnr{
-    background-color: rgb(16, 74, 73);
-}
+
 .hline2{
     margin-top: 30px;
     height: 0.001vh;
@@ -245,6 +243,8 @@ body{
 #tic{
     text-decoration: none;
 }
-
+.cntnr{
+    background-color: rgb(9, 49, 67);
+}
  
 
