@@ -213,19 +213,19 @@ body{
     transition-duration: 0.5s;
 }
 #insta{
-    background-image: url("instagram.png");
+    background-image: url("images/instagram.png");
     background-size: contain;
 }
 #in{
-    background-image: url("linkedin.png");
+    background-image: url("images/linkedin.png");
     background-size: contain;
 }
 #github{
-    background-image: url("github.png");
+    background-image: url("images/github.png");
     background-size: contain;
 }
 #mail{
-    background-image: url("gmail.png");
+    background-image: url("images/gmail.png");
     background-size: contain;
 }
 
@@ -243,6 +243,8 @@ body{
 #tic{
     text-decoration: none;
 }
-
+.cntnr{
+    background-color: rgb(9, 49, 67);
+}
  
 
